@@ -1,0 +1,16 @@
+@import '~antd/es/style/themes/default.less';
+
+.login {
+  margin-top: 20px;
+  .loginForm {
+    width: 320px;
+    border-radius: 10px;
+  }
+  input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #000 !important;
+  }
+  :global(.ant-input-affix-wrapper) {
+    border-radius: 10px;
+  }
+}

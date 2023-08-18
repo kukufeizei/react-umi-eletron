@@ -1,0 +1,36 @@
+.header {
+  > div {
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .flexStart {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 14px;
+    > div:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+  }
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    > div:first-child {
+      font-weight: bold;
+      font-size: 20px;
+      span {
+        padding-left: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .ant-descriptions-view {
+    table {
+      width: 100%;
+    }
+  }
+}

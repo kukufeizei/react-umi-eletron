@@ -1,0 +1,53 @@
+.editTable {
+  overflow: auto;
+  :global(.ant-form-item) {
+    margin-bottom: 0;
+  }
+  :global(.ant-table-wrapper) {
+    height: calc(100vh - 420px);
+  }
+  .handleBtn {
+    > span {
+      display: inline-block;
+      margin-right: 8px;
+      color: #3d66e4;
+      cursor: pointer;
+    }
+  }
+  .stockOutIcon {
+    width: 24px;
+    height: 24px;
+    padding: 3px 5px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    background-color: red;
+    border-radius: 3px;
+  }
+  .lapseIcon {
+    width: 34px;
+    height: 24px;
+    padding: 3px 5px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 3px;
+  }
+  .needAdd {
+    margin: 0;
+    padding-top: 4px;
+    color: rgb(100, 133, 233);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .requireIcon {
+    padding-right: 3px;
+    color: red;
+  }
+  .btn {
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+  }
+}

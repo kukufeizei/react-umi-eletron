@@ -1,0 +1,58 @@
+.supplier {
+  height: calc(100vh - 100px);
+  padding: 20px;
+  overflow: auto;
+  background-color: #fff;
+  .flexStart {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .imageBox {
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #3d66e4;
+    border-radius: 5px;
+  }
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    > div:first-child {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  :global(.ant-descriptions-view) {
+    table {
+      width: 100%;
+    }
+  }
+
+  .info {
+    margin: 20px 0;
+    .tableBox {
+      max-height: 300px;
+      overflow: auto;
+    }
+  }
+  .title {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  ._info {
+    width: 260px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .imgBox {
+    margin-right: 10px;
+  }
+
+  :global(.ant-table-body) {
+    min-height: 100px;
+  }
+}

@@ -1,0 +1,15 @@
+export default {
+  'menu.首页': '欢迎',
+  'menu.报价': '报价',
+  'menu.资料': '资料',
+  'menu.home': '首页',
+  'menu.admin': '管理页',
+  'menu.admin.sub-page': '二级管理页',
+  'menu.login': '登录',
+  'menu.销售': '销售',
+  'menu.退货明细': '退货明细',
+  'menu.账单': '账单',
+  'menu.账单.销售单': '销售单',
+  'menu.账单.入库对账': '入库对账',
+  'menu.账单.月对账单': '月对账单',
+};

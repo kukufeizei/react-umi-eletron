@@ -1,0 +1,161 @@
+export const columns: any[] = [
+  {
+    title: '发货时间',
+    dataIndex: 'actualDate',
+    width: 190,
+    hideInSearch: true,
+  },
+  {
+    title: '销售单号',
+    dataIndex: 'saleOrderNo',
+    width: 180,
+    hideInSearch: true,
+  },
+  {
+    title: '供应商单号',
+    dataIndex: 'supplyOrderNo',
+    width: 300,
+    hideInSearch: true,
+  },
+  {
+    title: '订单类型',
+    dataIndex: 'typeDesc',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '采购员',
+    dataIndex: 'adminName',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '鼎腾配件编码',
+    dataIndex: 'skuCode',
+    width: 230,
+    hideInSearch: true,
+  },
+  {
+    title: '配件名称',
+    dataIndex: 'skuName',
+    width: 180,
+    hideInSearch: true,
+  },
+  {
+    title: '品牌',
+    dataIndex: 'brandName',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '供报价（元）',
+    dataIndex: 'supplyPrice',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '发货数量',
+    dataIndex: 'actualNum',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '对账金额（元）',
+    dataIndex: 'totalFinancePrice',
+    width: 130,
+    hideInSearch: true,
+  },
+  {
+    title: '状态',
+    dataIndex: 'statusDesc',
+    width: 130,
+    hideInSearch: true,
+  },
+];
+
+export const refundColums: any[] = [
+  {
+    title: '退供单号',
+    dataIndex: 'refundNo',
+    width: 200,
+    hideInSearch: true,
+  },
+  {
+    title: '仓库单号',
+    dataIndex: 'inStorageNo',
+    width: 200,
+    hideInSearch: true,
+  },
+  {
+    title: '采购单号',
+    dataIndex: 'orderNo',
+    width: 200,
+    hideInSearch: true,
+  },
+  {
+    title: '销售单号',
+    dataIndex: 'salesOrderNo',
+    width: 200,
+    hideInSearch: true,
+  },
+  {
+    title: '供应商',
+    dataIndex: 'supplierName',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '零件编码',
+    dataIndex: 'skuCode',
+    width: 200,
+    hideInSearch: true,
+  },
+  {
+    title: '零件名称',
+    dataIndex: 'skuName',
+    width: 170,
+    hideInSearch: true,
+  },
+  {
+    title: '品牌',
+    dataIndex: 'brandName',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '仓库',
+    dataIndex: 'wareHouseName',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '采购员',
+    dataIndex: 'adminName',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '账单类型',
+    dataIndex: 'typeDesc',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '退款总金额',
+    dataIndex: 'totalPrice',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '状态',
+    dataIndex: 'statusDesc',
+    width: 150,
+    hideInSearch: true,
+  },
+  {
+    title: '退供日期',
+    dataIndex: 'createTime',
+    width: 150,
+    hideInSearch: true,
+  },
+];
